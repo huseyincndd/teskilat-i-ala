@@ -4,14 +4,14 @@ import "./globals.css";
 
 const orbitron = Orbitron({
   variable: "--font-display",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
   display: "swap",
 });
 
 const rajdhani = Rajdhani({
   variable: "--font-sans",
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
