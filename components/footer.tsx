@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Crosshair, MessageSquare, Share2, Instagram, Facebook } from 'lucide-react';
+import { Crosshair, MessageSquare, Share2, Instagram, Facebook, Globe, Megaphone } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full max-w-4xl h-px bg-gradient-to-r from-transparent via-gold-500 to-transparent opacity-50"></div>
       
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           
           {/* Brand */}
           <div className="flex flex-col items-start gap-4">
@@ -39,6 +39,24 @@ export const Footer: React.FC = () => {
             <a href="#" className="hover:text-gold-500 transition-colors flex items-center gap-2">
               <span className="w-1 h-1 bg-gold-500 rounded-full"></span> Top15
             </a>
+          </div>
+
+          {/* Sponsor */}
+          <div className="flex flex-col gap-4 text-sm text-gray-400">
+            <h4 className="text-purple-400 font-bold font-display tracking-widest mb-2 flex items-center gap-2">
+              <Megaphone size={16} /> RESMİ SPONSOR
+            </h4>
+            <div className="p-4 border border-purple-500/20 bg-purple-500/5 rounded-lg group hover:border-purple-500/50 transition-colors">
+              <p className="text-white font-bold mb-2">KARASU REKLAM AJANSI</p>
+              <div className="flex flex-col gap-2">
+                <a href="https://www.karasureklamajansi.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs hover:text-purple-400 transition-colors">
+                  <Globe size={12} /> karasureklamajansi.com
+                </a>
+                <a href="https://www.instagram.com/karasureklamajansi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs hover:text-purple-400 transition-colors">
+                  <Instagram size={12} /> @karasureklamajansi
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Socials */}

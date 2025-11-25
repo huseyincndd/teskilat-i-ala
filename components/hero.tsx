@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Crosshair, Users, Zap, Star, Shield } from 'lucide-react';
+import { ChevronDown, Crosshair, Users, Zap, Star, Shield, Megaphone } from 'lucide-react';
 
 const BACKGROUND_IMAGES = [
   "https://wallpapers.com/images/hd/counterstrike-3lourqobllt98xdr.jpg", // Tech/Motherboard look
@@ -45,6 +45,10 @@ export const Hero: React.FC = () => {
       <div className="flex items-center mx-8 gap-3 opacity-80">
         <Zap className="w-4 h-4 text-gold-500" />
         <span className="font-display font-bold text-white tracking-wider text-sm md:text-base">TS3: TAPRO</span>
+      </div>
+      <div className="flex items-center mx-8 gap-3 opacity-100 bg-purple-500/20 px-3 py-1 rounded border border-purple-500/30">
+        <Megaphone className="w-4 h-4 text-purple-400" />
+        <span className="font-display font-bold text-purple-100 tracking-wider text-sm md:text-base">SPONSOR: KARASU REKLAM AJANSI</span>
       </div>
       <div className="flex items-center mx-8 gap-3 opacity-80">
         <Shield className="w-4 h-4 text-gold-500" />

@@ -7,6 +7,10 @@ import { ServerInfo } from '@/components/serverinfo';
 import { Features } from '@/components/features';
 import { TopPlayers } from '@/components/topplayers';
 import { MapPool } from '@/components/mappool';
+import { PartnerShip } from '@/components/partnership';
+import { PricingPackages } from '@/components/pricingpackages';
+import { SponsorBanner } from '@/components/sponsorbanner';
+import { StaffTeam } from '@/components/staffteam';
 import { Rules } from '@/components/rules';
 import { Footer } from '@/components/footer';
 import { IntroLoader } from '@/components/introloader';
@@ -30,11 +34,21 @@ export default function Home() {
           <div id="top-players">
             <TopPlayers />
           </div>
+          <div id="partnership">
+            <PartnerShip />
+          </div>
+          <div id="packages">
+            <PricingPackages />
+          </div>
+          <SponsorBanner />
           <div id="features">
             <Features />
           </div>
           <div id="maps">
             <MapPool />
+          </div>
+          <div id="staff">
+            <StaffTeam />
           </div>
           <div id="rules">
             <Rules />
