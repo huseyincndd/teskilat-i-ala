@@ -21,7 +21,7 @@ export const StaffTeam: React.FC = () => {
   };
 
   const highCommand: StaffMember[] = [
-    { role: "AJANS BAŞKANI", name: "Dosteyeviski*", realName: "Mehmet", icon: <Briefcase className="w-6 h-6" />, color: "text-purple-400" },
+    { role: "AJANS BAŞKANI", name: "Dosteyeviski*", realName: "Mehmet", icon: <Shield className="w-6 h-6" />, color: "text-purple-400" },
     { role: "SERVER ORTAK", name: "AdnanBey", icon: <Star className="w-6 h-6" />, color: "text-red-500" },
     { role: "SERVER ORTAK", name: "INargaroth", realName: "Kerem", icon: <Star className="w-6 h-6" />, color: "text-red-500" },
   ];

@@ -63,7 +63,7 @@ export const PartnerShip: React.FC = () => {
                   <p className="text-gray-400 text-sm mb-6">Sunucunun bir parçası ol, yönetime katıl ve ayrıcalıkların tadını çıkar.</p>
                   
                   <div className="flex items-baseline justify-center md:justify-start gap-2 mb-8">
-                    <span className="text-5xl md:text-6xl font-display font-black text-white">1500</span>
+                    <span className="text-5xl md:text-6xl font-display font-black text-white">5000</span>
                     <div className="flex flex-col items-start">
                       <span className="text-xl font-bold text-gold-500">TL</span>
                       <span className="text-xs text-gray-500">/ 30 GÜN</span>

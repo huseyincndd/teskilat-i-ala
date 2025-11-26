@@ -108,12 +108,12 @@ export const Hero: React.FC = () => {
           </div>
         </div>
         
-        {/* Main Title */}
+        {/* Main Title - UPDATED FOR MOBILE FIX */}
         <div className="relative mb-6">
-           <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-black text-white tracking-tighter leading-none drop-shadow-2xl">
+           <h1 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-black text-white tracking-tighter leading-none drop-shadow-2xl whitespace-nowrap">
             TESKILAT-I
           </h1>
-          <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-500 to-amber-700 tracking-tighter leading-none mt-2 relative inline-block animate-pulse-slow">
+          <h1 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-500 to-amber-700 tracking-tighter leading-none mt-2 relative inline-block animate-pulse-slow">
             ALA
             <span className="absolute -inset-1 blur-2xl bg-gold-500/20 -z-10"></span>
           </h1>
